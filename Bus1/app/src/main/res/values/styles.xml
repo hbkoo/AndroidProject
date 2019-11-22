@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="colorAccent">#3498db</item>-->
+    <!--</style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#66CC66</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#66CC66</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+    </style>
+    <style name="StartTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowBackground">@drawable/start</item>-->
+    </style>
+    <style name="MyEdit_style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/my_edittext</item>
+    </style>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+</resources>
