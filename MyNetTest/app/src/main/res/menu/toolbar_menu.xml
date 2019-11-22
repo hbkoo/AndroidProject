@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/image_"
+        android:title="图片查看" />
+    <item android:id="@+id/file_"
+        android:title="文件传输" />
+    <item android:id="@+id/thread_load"
+        android:title="多线程下载在线铃声" />
+    <item android:id="@+id/plugin"
+        android:title="插件加载" />
+
+</menu>
