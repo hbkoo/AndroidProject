@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acer.enterprise">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="企查查"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activity.StartActivity"
+            android:theme="@style/NoBarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="登录"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity
+            android:name=".activity.AdmActivity"
+            android:label=""
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".activity.NorActivity"
+            android:label=""
+            android:theme="@style/NoBarTheme" />
+        <activity
+            android:name=".activity.RegistActivity"
+            android:label=""
+            android:theme="@style/NoBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ReleaseActivity"
+            android:label=""
+            android:theme="@style/NoBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ChangeINFActivity"
+            android:label=""
+            android:theme="@style/NoBarTheme"
+            android:windowSoftInputMode="stateHidden" />
+
+    </application>
+
+</manifest>
