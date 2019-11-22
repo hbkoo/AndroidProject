@@ -1,0 +1,14 @@
+首先导入jar包到libs文件夹下
+然后创建MyApplication类继承Application，重写onCreate方法并在里面实现x.Ext.init(this);
+然后在AndroidManifest文件中Application标签里添加
+        android:name=".Application.MyApplication"，表示android运行之前先进入自己的MyApplication中
+然后就可以在自己的Activity中使用框架了，首先注册
+        x.view().inject(this);
+		
+		之后就可以使用了
+		@ViewInject(R.id.lv_news)
+		private ListView lv_news;  // 不用使用findViewByID来绑定控件
+		
+		// radioGround内部的RadioButton选项改变的监听事件
+		@Event(value = {R.id.rg_male_female}, type = RadioGroup.OnCheckedChangeListener.class)
+		private void oncheckchange(RadioGroup radioGroup, int checkId){ }
